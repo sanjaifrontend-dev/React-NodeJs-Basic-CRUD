@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    .brand-container {
+        @apply px-5  sm:px-10 md:px-[50px] lg:px-20 xl:px-20 max-w-[1800px] w-full mx-auto
+    }
+}
