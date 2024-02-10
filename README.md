@@ -47,11 +47,11 @@ Check out the live demo: [React-Node.js Basic CRUD](https://react-nodejs-basic-c
 
 3. **Install dependencies for both frontend and backend:**
 
-    **Frontend:**
+    Frontend:
        - cd client
        - npm install
 
-    **Backend:**
+    Backend:
        - cd server
        - npm install
 
