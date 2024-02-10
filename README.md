@@ -47,13 +47,13 @@ Check out the live demo: [React-Node.js Basic CRUD](https://react-nodejs-basic-c
 
 3. **Install dependencies for both frontend and backend:**
 
-    - **Frontend:**
-        cd client
-        npm install
+    **Frontend:**
+       - cd client
+       - npm install
 
-    - **Backend:**
-        cd server
-        npm install
+    **Backend:**
+       - cd server
+       - npm install
 
 4. **Setup MySQL Database:**
 
