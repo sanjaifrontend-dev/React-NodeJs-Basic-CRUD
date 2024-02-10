@@ -77,7 +77,7 @@ Check out the live demo: [React-Node.js Basic CRUD](https://react-nodejs-basic-c
 
     GET /users: Get the list of all users.
     GET /user/:id: Get details of a specific user.
-    POST /users: Add a new user.
+    POST /user: Add a new user.
     PUT /user/:id: Update details of a specific user.
     DELETE /user/:id: Delete a specific user.
 
