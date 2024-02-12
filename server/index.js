@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.json());
 
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: ['http://localhost:3000', 'https://react-nodejs-basic-crud.vercel.app'],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   }));
