@@ -16,7 +16,7 @@ const Home = () => {
 
   // Get All Users list
   const getUsersList = async () => {
-    const url = "http://localhost:3001/users";
+    const url = "https://react-nodejs-basic-crud.onrender.com/users";
     const response = await axios.get(url);
     if (response.status === 200) {
       setUsersList(response.data.data);
@@ -26,7 +26,7 @@ const Home = () => {
 
   // Create User
   const handleSubmit = async (userData) => {
-    const url = "http://localhost:3001/user";
+    const url = "https://react-nodejs-basic-crud.onrender.com/user";
     const payload = {
       firstName: userData.firstName,
       lastName: userData.lastName,
@@ -42,7 +42,7 @@ const Home = () => {
 
   // Delete User
   const DeleteUser = async (id) => {
-    const url = `http://localhost:3001/user/${id}`;
+    const url = `https://react-nodejs-basic-crud.onrender.com/user/${id}`;
 
     const response = await axios.delete(url);
     if (response.status === 200) {
@@ -59,7 +59,7 @@ const Home = () => {
 
   // Update User
   const updateUser = async (updatedUserData) => {
-    const url = `http://localhost:3001/user/${editingUser.id}`;
+    const url = `https://react-nodejs-basic-crud.onrender.com/user/${editingUser.id}`;
     const payload = {
       firstName: updatedUserData.firstName,
       lastName: updatedUserData.lastName,
